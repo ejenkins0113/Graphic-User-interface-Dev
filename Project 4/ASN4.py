@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import Label, messagebox
 from PIL import Image, ImageTk
 
-class MainFrame():
+class ASN4():
 	def __init__(self):
 		#Create the main application window and set the size to 400x300 pixels
 		self.root = tk.Tk()
@@ -82,5 +82,5 @@ class MainFrame():
 			self.lbl.config(image=self.imgFour)
 
 if __name__ == "__main__":
-    app = MainFrame()
+    app = ASN4()
     app.root.mainloop()
